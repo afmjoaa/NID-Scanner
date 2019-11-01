@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:fontFamily">@font/krub_regular</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="myButtonWhite" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_btn_background_white</item>
+    </style>
+
+    <style name="myButtonStyleBlack" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_btn_background_black</item>
+    </style>
+
+    <style name="myButtonAccent" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/my_btn_background_accent</item>
+    </style>
+
+</resources>

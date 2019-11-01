@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activities.splash.SplashActivity">
+
+
+    <Button
+        android:id="@+id/get_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        style="@style/myButtonAccent"
+        android:text="@string/dummy_button" />
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_margin="12dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nid info will be here" />
+
+    <ImageView
+        android:id="@+id/show_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/getting" />
+
+</LinearLayout>

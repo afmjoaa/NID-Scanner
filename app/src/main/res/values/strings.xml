@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BD-NID Scanner</string>
+
+    <string name="title_activity_splash">BD-NID Scanner</string>
+    <string name="dummy_button">Open NID Image</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="getting">getting</string>
+</resources>
